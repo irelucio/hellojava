@@ -16,7 +16,7 @@ public class HelloWorld {
     @Produces(MediaType.TEXT_PLAIN)
     public Response example() {
     	System.out.println(System.getenv());
-        return Response.ok("Hello Customer , you have reached host " + System.getenv("HOSTNAME")).build();
+        return Response.ok("Hello Enrique Relucio , you have reached host " + System.getenv("HOSTNAME")).build();
     }
 
 }
